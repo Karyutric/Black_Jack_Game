@@ -44,7 +44,8 @@ class Deck:
                 card = self.cards.pop()
                 cards_dealt.append(card)
         return cards_dealt
- 
+
+# Hand Class - will work out the player and dealer hands 
 class Hand:
     def __init__(self, dealer=False):
             self.cards = []
